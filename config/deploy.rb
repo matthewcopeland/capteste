@@ -18,7 +18,7 @@ set :use_sudo, false
 # Git
 
 set :scm, :git
-set :repository,  "git@heroku.com:guitarspeed.git"
+set :repository,  "git@github.com:matthewcopeland/capteste.git"
 set :branch, "master"
 
 # VPS
