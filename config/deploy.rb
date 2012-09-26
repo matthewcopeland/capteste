@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 set :default_environment, {
-
-'PATH' => "$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+# 'PATH' => "$HOME/.rbenv/shims:$HOME/.rbenv/bin:$PATH"
+'PATH' => "/usr/local/rvm/bin/rvm"
 }
 
 
